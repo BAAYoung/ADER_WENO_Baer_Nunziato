@@ -1,0 +1,20 @@
+README file for the Baer-Nunziato ADER-WENO MGFM algorithm.
+
+These files have been migrated over from a private SVN, please contact me if anything is missing.
+
+Compile all files using 'g++ -std=c++11 file_name.cpp -o file_name -O2 -larmadillo' replacing file_name with the name of the file.
+
+The latest version of Armadillo is required to compile, found at :
+
+http://arma.sourceforge.net/docs.html
+
+The modified code folder contains various modifications of the code used to simulate the results contained within the thesis. The Baer_Nunziato.cpp code within the main folder contains the basic code for simulating a strong compaction around a cylinder.
+
+For more information about the methods or types of problems that can be solved with this code, please read the Documentation.pdf file.
+
+Simulation setups are given in the Test_problems folder, each one is equivalent to the corresponding problem given within the Documentation.pdf file
+
+The Development_files folder containts files in matlab used to develop the theory behind the code, for example the matrix decompositions needed to solve the Baer-Nunziato equations
+
+
+
