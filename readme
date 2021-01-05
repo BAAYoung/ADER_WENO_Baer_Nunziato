@@ -14,7 +14,9 @@ For more information about the methods or types of problems that can be solved w
 
 Simulation setups are given in the Test_problems folder, each one is equivalent to the corresponding problem given within the Documentation.pdf file
 
-The Development_files folder containts files in matlab used to develop the theory behind the code, for example the matrix decompositions needed to solve the Baer-Nunziato equations
+The Development_files folder contains files in matlab used to develop the theory behind the code, for example the matrix decompositions needed to solve the Baer-Nunziato equations
+
+
 
 
 
